@@ -28,5 +28,10 @@ end
 
 def get_english_meaning(file_path, emoticon)
   data = load_library(file_path)
-  return data[:get_meaning][emoticon]
+  answer = data[:get_meaning][emoticon]
+  if answer == "(￣ー￣)" || answer == "(＾ｖ＾)" || answer == "(Ｔ▽Ｔ)"
+    return answer
+  else
+    return "Sorry, that emoticon was not found"
+  end
 end
