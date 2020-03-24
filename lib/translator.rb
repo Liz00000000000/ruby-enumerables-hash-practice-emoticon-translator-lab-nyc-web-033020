@@ -15,6 +15,8 @@ def load_library(file_path)
 return result
 end
 
+load_library
+
 def get_japanese_emoticon
   # code goes here
 end
