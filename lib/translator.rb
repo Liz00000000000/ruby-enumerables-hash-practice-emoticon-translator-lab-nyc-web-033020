@@ -12,7 +12,7 @@ def load_library(file_path)
    #result[:get_emoticon] = {value[0] => key}
  end
    #binding.pry
-return result
+p result
 end
 
 load_library("emoticons.yml")
