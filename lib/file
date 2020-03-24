@@ -3,5 +3,7 @@ result = {
     :get_emoticon => { }
   }
 
-  puts result 
+  #puts result
 result[:get_meaning] = "Theo Sucks!"
+
+p result
