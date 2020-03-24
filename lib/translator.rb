@@ -9,7 +9,6 @@ def load_library(file_path)
     }
  library.each do | key, value |
    result[:get_meaning] = {key => value[1]}
-   result[:get_meaning] =
    #binding.pry
 end
 return result
