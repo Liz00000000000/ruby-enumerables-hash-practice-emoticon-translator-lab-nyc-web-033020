@@ -1,0 +1,4 @@
+result = {
+    :get_meaning => { },
+    :get_emoticon => { }
+  }
