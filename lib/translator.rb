@@ -9,6 +9,7 @@ def load_library(file_path)
     }
  library.each do | key, value |
    result[:get_meaning] = {value[1] => key}
+   puts result[:get_meaning]
    #result[:get_emoticon] = {value[0] => key}
  end
    #binding.pry
