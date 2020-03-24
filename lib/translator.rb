@@ -11,7 +11,6 @@ def load_library(file_path)
    result[:get_meaning] = {value[1]}
  end
    #binding.pry
-end
 return result
 end
 
