@@ -9,7 +9,7 @@ def load_library(file_path)
     }
  library.each do | key, value |
    result[:get_meaning] = {:emoticons => value[1]}
-   #binding.pry
+   binding.pry
 end
 return result
 end
