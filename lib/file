@@ -10,5 +10,5 @@ p result
 
 puts result[:get_meaning][:"Theo Sucks!"]
 
-result[:get_meaning][:"Theo Sucks!"] = "Cats!"
+result[:get_meaning]["Covid19"] = "Cats!"
 puts result
