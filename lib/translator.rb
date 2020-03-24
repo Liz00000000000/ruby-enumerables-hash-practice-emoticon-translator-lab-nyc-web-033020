@@ -19,7 +19,7 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   data = load_library(file_path)
   answer =  data[:get_emoticon][emoticon]
-  if answer == nil
+  if answer == true
     puts "Sorry, that emoticon was not found"
   else
     return answer
