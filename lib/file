@@ -4,6 +4,6 @@ result = {
   }
 
   #puts result
-result[:get_meaning] = "Theo Sucks!"
+result[:get_meaning] = {:"Theo Sucks!" => "Covid19"}
 
 p result
