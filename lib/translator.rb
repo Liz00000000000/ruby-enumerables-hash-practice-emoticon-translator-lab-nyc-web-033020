@@ -19,7 +19,7 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   data = load_library(file_path)
   answer =  data[:get_emoticon][emoticon]
-  if answer == "☜(⌒▽⌒)☞" || answer == "ヽ(ｏ`皿′ｏ)ﾉ" || answer == "(ΘεΘ;)" || 
+  if answer == "☜(⌒▽⌒)☞" || answer == "ヽ(ｏ`皿′ｏ)ﾉ" || answer == "(ΘεΘ;)" || answer == "(゜.゜)" || answer == "(#^.^#)"
     return answer
   else
     return "Sorry, that emoticon was not found"
