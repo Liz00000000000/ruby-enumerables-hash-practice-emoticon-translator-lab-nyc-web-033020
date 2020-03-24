@@ -11,3 +11,4 @@ p result
 puts result[:get_meaning][:"Theo Sucks!"]
 
 result[:get_meaning] = "Cats!"
+puts results
