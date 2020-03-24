@@ -7,3 +7,5 @@ result = {
 result[:get_meaning] = {:"Theo Sucks!" => "Covid19"}
 
 p result
+
+puts result[:get_meaning][:"Theo Sucks!"]
