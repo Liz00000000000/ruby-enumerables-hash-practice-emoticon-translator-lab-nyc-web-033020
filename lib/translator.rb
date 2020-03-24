@@ -8,8 +8,8 @@ def load_library(file_path)
       :get_emoticon => {}
     }
  library.each do | key, value |
-   result[:get_meaning] = {:emoticons = {value[1] => key}}
-   binding.pry
+   result[:get_meaning] = {:emoticons => {value[1] => key}}
+   #binding.pry
 end
 return result
 end
